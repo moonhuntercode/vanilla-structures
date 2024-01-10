@@ -1,0 +1,45 @@
+#nav_container > ul {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center space-around;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+}
+#nav_container > ul > li > a {
+  color: black;
+  font-weight: bold;
+
+  &:hover {
+    color: white;
+
+    &:after {
+      content: " ";
+      background: rgb(196, 85, 255);
+      display: block;
+      width: 10%;
+      height: 4px;
+
+      animation: moveToRight 0.5s ease-in-out forwards;
+    }
+  }
+  &:active {
+    transform: scale(2);
+    color: aqua;
+  }
+}
+
+@keyframes moveToRight {
+  0% {
+    width: 0;
+    background: rgb(196, 85, 255);
+  }
+  50% {
+    background: white;
+  }
+  100% {
+    background: rgb(196, 85, 255);
+
+    width: 100%;
+  }
+}

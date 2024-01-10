@@ -1,0 +1,16 @@
+/* BASIC RESET START */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* BASIC RESET END */
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  color: inherit;
+}

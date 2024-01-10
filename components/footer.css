@@ -1,0 +1,13 @@
+#footer_container {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#footer_container > ul {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center space-around;
+}

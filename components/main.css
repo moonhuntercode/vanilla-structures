@@ -12,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --one-hundred-percent: 100%;
+  --zero-percent: 0%;
+  --twenty-five-percent: 25%;
+  --fifty-percent: 50%;
+  --seventy-five-percent: 75%;
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,26 +30,28 @@
     background-color: #f9f9f9;
   }
 }
-/* BASIC RESET START */
+
+
+/* CUSTOM RESET STYLE TO MAIN CONTAINER START */
 body,
 html {
   width: var(--one-hundred-percent);
   height: var(--one-hundred-percent);
 }
+
+/* CUSTOM RESET STYLE TO MAIN CONTAINER END */
+
 body {
   display: flex;
   flex-flow: column wrap;
   place-content: center;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 #mainContainer {
-  background-color: #747bff;
-  width: 150px;
-  height: 150px;
+  background-color: #333333;
+  width: var(--seventy-five-percent);
+  height: var(--fifty-percent);
   border-radius: 20px;
+  display: grid;
+  text-align: center;
+  grid-template-rows: 1fr 2fr 60px;
 }
-/* BASIC RESET END */
