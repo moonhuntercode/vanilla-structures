@@ -10,7 +10,7 @@ const proxieStore = new Proxy(Store, {
     }
     if (property == "cart") {
       window.dispatchEvent(new Event("appcartchange"));
-    }
+    } 
     return true;
   },
 });
