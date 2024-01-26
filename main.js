@@ -6,8 +6,7 @@ import { Main, Footer, Navbar } from "./components";
 // main section component
 customElements.define("main-component", Main);
 
-// footer
-customElements.define("footer-component", Footer);
+
 
 // navbar
 customElements.define("navbar-component", Navbar);

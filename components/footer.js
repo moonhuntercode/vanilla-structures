@@ -17,3 +17,5 @@ export class Footer extends HTMLElement {
         `;
   }
 }
+// footer
+customElements.define("footer-component", Footer);
