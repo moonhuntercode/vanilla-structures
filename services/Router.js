@@ -32,7 +32,7 @@ const Router = {
       default:
         if (route.startsWith("/product-")) {
           pageElement = document.createElement("h1");
-          pageElement.textContent = "D.etails";
+          pageElement.textContent = "Details";
           const paramId = route.substring(route.lastIndexOf("-") + 1);
           pageElement.dataset.id = paramId;
         }
@@ -40,7 +40,7 @@ const Router = {
 
     if (pageElement) {
       //   document.querySelector("main").children[0].remove(); // Remove old page |
-      const cache = document.querySelector("main");
+      const cache = document.querySelector("  ");
       cache.innerHTML = "";
       cache.append(pageElement);
       window.scrollX = 0;
