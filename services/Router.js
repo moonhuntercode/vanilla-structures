@@ -8,6 +8,7 @@ const Router = {
         Router.go(url);
       });
     });
+    //Event handler for popstate
     window.addEventListener("popstate", (event) => {
       Router.go(event.state.route, false);
     });
