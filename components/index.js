@@ -4,5 +4,6 @@ import { Main } from "./main_section.js";
 import { DetailsPage } from "./DetailsPage.js";
 import { OrderPage } from "./OrderPage.js";
 import { MenuPage } from "./MenuPage.js";
+import ProductItem from "./ProductItem.js";
 
-export { Navbar, Footer, Main, DetailsPage, MenuPage, OrderPage };
+export { Navbar, Footer, Main, DetailsPage, MenuPage, OrderPage, ProductItem };

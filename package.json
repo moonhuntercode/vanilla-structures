@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "d": "clear && vite",
+    "d": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "vite-plugin-shadow-dom-css": "^0.0.2",
+    "vite-plugin-shadow-style": "^1.1.0"
   }
 }
