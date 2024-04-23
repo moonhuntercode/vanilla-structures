@@ -1,3 +1,5 @@
+@import url('./components/MenuPage.css');
+
 :root {
     --background-surface: #EFEFEF;
     --primaryColor: #43281C;
@@ -8,23 +10,45 @@
     --color6: #EDE0D4;
     --highlight: #FBF2C6;
 }
+/* reset start */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: var(--one-hundred-percent);
+  height: var(--one-hundred-percent);
+  overflow-x: hidden;
+}
+/* reset end */
 
 body {
-    padding: 0;
-    margin: 0;
+    
     font-family: 'Open Sans', sans-serif;
 }
 
 body>header {
     position: fixed;
+    /* display: block; */
+    
     width: 100%;
     top: 0;
 }
 
 body>main {
+    
+    
+    height: 100%;
     margin: auto;
-    margin-top: 60px;
+    top: 0;
+    margin-top: 80px;
+    /* overflow: scroll; */
     max-width: 500px;
+    
 }
 
 h1 {
@@ -78,3 +102,4 @@ section.page {
     right: 5px;
     top: 6px;
 }
+h4{color: white;}

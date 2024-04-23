@@ -6,6 +6,7 @@ const Router = {
         // const url1 = event.target.href;
         const url = event.target.getAttribute("href");
         Router.go(url);
+        
       });
     });
     //Event handler for popstate
@@ -41,9 +42,9 @@ const Router = {
 
     if (pageElement) {
       //   document.querySelector("main").children[0].remove(); // Remove old page |
-      const cache = document.querySelector("  main");
+      const cache = document.querySelector("main");
       cache.innerHTML = "";
-      cache.append(pageElement);
+      cache.appendChild(pageElement);
       window.scrollX = 0;
       window.scrollY = 0;
     } else {

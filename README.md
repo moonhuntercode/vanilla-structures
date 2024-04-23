@@ -11,3 +11,7 @@ o reemplazar el contenido emmm,y ver si afecta al
 SEO , aunque creo que con SPA es dificil mantener eso,
 pero no importa porque la idea esque solo algunos usuarios
 puedan acceder al contenido a futuro
+✅probando nuevo estilo para hacer web app sin framework,vanilla pure js
+
+❌cargar css a shadow dom component
+❌cargar contenido al hacer click en local_cafe
